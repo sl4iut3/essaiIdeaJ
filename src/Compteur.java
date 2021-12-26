@@ -23,6 +23,7 @@ public class Compteur extends Observable implements Runnable {
     }
 
     public static void main(String[] args) {
+        System.out.println("hi");
         Compteur c=new Compteur();
         VueTexte vt=new VueTexte();
         c.addObserver(vt);
